@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinearActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/white"
+        android:backgroundTint="#00063E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/toastBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:subtitleTextColor="#FFFFFF"
+        app:title="Helle Toast"
+        app:titleMargin="8dp"
+        app:titleTextColor="#E1CECE" />
+
+    <Button
+        android:id="@+id/toastBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0C93FF"
+        android:fontFamily="serif"
+        android:text="@string/toastBtn"
+        android:textAlignment="center"
+        android:textColor="#171619"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cpt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="onclick"
+        />
+
+    <TextView
+        android:id="@+id/cpt"
+        android:layout_width="match_parent"
+        android:layout_height="454dp"
+        android:background="#B6E2F6"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:paddingTop="80sp"
+        android:text="@string/count"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#040C37"
+        android:textSize="220sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/countBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toastBtn" />
+
+
+    <Button
+        android:id="@+id/countBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0C93FF"
+        android:fontFamily="serif"
+        android:text="@string/countBtn"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#0B0B0B"
+        android:onClick="onclick"
+        />
+
+</LinearLayout>

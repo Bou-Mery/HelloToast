@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloToast</string>
+    <string name="toastBtn">Toast</string>
+    <string name="count">0</string>
+    <string name="countBtn">Count</string>
+    <string name="appName">Hello Toast</string>
+    <string name="constraint">Go to Linear</string>
+</resources>
