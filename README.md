@@ -37,7 +37,7 @@ Dans cette version, nous utilisons un **LinearLayout** avec une orientation vert
 
 Voici une courte démonstration de l'application :
 
-[Cliquez ici pour regarder la vidéo](https://drive.google.com/file/d/1-S-mrJcG3JRHwtgZQwpC-covllpALCQ4/view?usp=sharing)
+https://github.com/user-attachments/assets/c3a99005-0c9c-404e-80a9-e2dd47ad1f31
 
 
 ### Auteur
